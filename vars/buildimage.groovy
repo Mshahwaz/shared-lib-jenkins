@@ -1,3 +1,3 @@
 def call(){
-    sh 'docker build -t --label maintainer=mshahwaz "$REPO:$TAG" .'
+    sh 'docker build --label maintainer=mshahwaz -t "$REPO:$TAG" .'
 }
